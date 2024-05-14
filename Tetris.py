@@ -11,7 +11,7 @@ from collections import deque
 from nes_py.wrappers import JoypadSpace
 import gym_tetris.actions
 import time
-
+ 
 class DQNAgent:
     def __init__(self, state_size, action_size):
         self.state_size = state_size
